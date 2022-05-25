@@ -11,19 +11,19 @@ int Result;
 if (Number > 99 && Number < 999)
 {
     Result = (Number % 10);
-    Console.WriteLine(Number+" -> "+Result);
+    Console.WriteLine(Number + " -> " + Result);
 }
 else if (Number > 999 && Number < 9999)
 {
-    Result = ((Number % 100)/10);
-    Console.WriteLine(Number+" -> "+Result);
+    Result = ((Number % 100) / 10);
+    Console.WriteLine(Number + " -> " + Result);
 }
 else if (Number > 9999)
 {
-    Result = ((Number % 1000)/100);
-    Console.WriteLine(Number+" -> "+Result);
+    Result = ((Number % 1000) / 100);
+    Console.WriteLine(Number + " -> " + Result);
 }
 else
 {
-    Console.WriteLine(Number+" ->  There is no third digit!");
+    Console.WriteLine(Number + " ->  There is no third digit!");
 }
